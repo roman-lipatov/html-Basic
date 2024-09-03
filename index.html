@@ -1,21 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Demo</title>
+    <style>
+      ul {
+            list-style-type: disc; /* Стиль маркерів: disc, circle, square */
+            padding-left: 20px; /* Відступ від лівого краю */
+        }
+        li {
+            margin-bottom: 10px; /* Відступ між елементами списку */
+        }
+       ol {
+            list-style-type: decimal; /* Тип нумерації: decimal, lower-alpha, upper-alpha, lower-roman, upper-roman */
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+      dl {
+          padding-left: 20px;
+      }
+      dt {
+          font-weight: bold; /* Жирний текст для терміну */
+      }
+      dd {
+          margin-left: 20px; /* Відступ для визначення */
+          margin-bottom: 10px;
+      }
+  </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="body">
-  <header class="header">
-    <p class="text">Header</p>
-  </header>
-  <main class="main">
-    <p class="text">Main</p>
-  </main>
-  <footer class="footer">
-    <p class="text">Footer</p>
-  </footer>
- 
+<body>
+
+    <!-- <div class="flex-container">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+    </div> -->
+    <h2>Ненумерований список</h2>
+    <ul>
+        <li>Елемент 1</li>
+        <li>Елемент 2</li>
+        <li>Елемент 3</li>
+    </ul>
+
+
+    <h2>Нумерований список</h2>
+    <ol>
+        <li>Елемент 1</li>
+        <li>Елемент 2</li>
+        <li>Елемент 3</li>
+    </ol>
+
+
+    <h2>Список визначень</h2>
+    <dl>
+        <dt>Термін 1</dt>
+        <dd>Визначення терміну 1</dd>
+        <dt>Термін 2</dt>
+        <dd>Визначення терміну 2</dd>
+        <dt>Термін 3</dt>
+        <dd>Визначення терміну 3</dd>
+    </dl>
+
+
+
 </body>
 </html>
