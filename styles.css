@@ -7,12 +7,17 @@
 .body {
   height: 100vh;
   box-sizing: border-box;
-}
+  background: linear-gradient(to right, #FF6584 40%, white 40%);}
 .header {
   background-color: black;
   height: 30vh;
   display: flex;
   align-items: center;
+}
+
+.zIndex {
+  font-size: 50px;
+  z-index: 10000;
 }
 
 .main {
